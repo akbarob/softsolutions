@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 
 export default function Page() {
   return (
-    <div>
+    <div className="m-2 bg-white">
       <Navbar />
       <div className="flex flex-row">
         <Sidebar />
