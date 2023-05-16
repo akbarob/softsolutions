@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <div className="m-2 bg-white">
       <Navbar />
-      <div className="flex flex-row">
+      <div className="flex flex-row mt-16">
         <Sidebar />
         <Main />
       </div>
