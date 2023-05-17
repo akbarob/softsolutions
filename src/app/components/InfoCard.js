@@ -1,18 +1,25 @@
+import Image from "next/image";
 import React from "react";
 const style = {
   p: "uppercase text-[10px]  text-gray-400",
-  h1: "capitalize font-bold text-md",
-  span: "mr-8",
+  h1: "capitalize font-bold text-sm mb-1",
+  span: "mr-6",
 };
 export default function BioData({}) {
   return (
     <div className="">
-      <div>
+      <div className="my-2 flex justify-between items-center">
         <h1 className="text-blue-800 font-bold">Bio Data Information</h1>
+        <Image
+          width={30}
+          height={30}
+          src="/images/blue-switch.png"
+          className=" ml-10"
+        />
       </div>
 
       <div className="flex flex-row">
-        <div className="mr-8">
+        <div className="mr-6">
           <span className={style.span}>
             <h1 className={style.h1}>Title</h1>
             <p className={style.p}>Ms</p>
@@ -22,7 +29,7 @@ export default function BioData({}) {
             <p className={style.p}>Ilesha-West</p>
           </span>
         </div>
-        <div className="mr-8">
+        <div className="mr-6">
           <span className={style.span}>
             <h1 className={style.h1}>First Name</h1>
             <p className={style.p}>Akbar</p>
@@ -32,7 +39,7 @@ export default function BioData({}) {
             <p className={style.p}>Ogun state</p>
           </span>
         </div>
-        <div className="mr-8">
+        <div className="mr-6">
           <span className={style.span}>
             <h1 className={style.h1}>Other Names</h1>
             <p className={style.p}>Opemipo</p>
