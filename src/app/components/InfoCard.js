@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 const style = {
   p: "uppercase text-[10px]  text-gray-400",
-  h1: "capitalize font-bold text-sm mb-1",
+  h1: "capitalize font-bold text-[12px] mb-1",
   span: "mr-6",
 };
 export default function BioData({}) {
   return (
     <div className="">
-      <div className="my-2 flex justify-between items-center">
+      <div className="my-2 flex justify-between items-center lg:w-[400px]">
         <h1 className="text-blue-800 font-bold">Bio Data Information</h1>
         <Image
           width={30}

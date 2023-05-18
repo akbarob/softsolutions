@@ -10,7 +10,7 @@ import ProfileImage from "./ProfileImage";
 
 export default function Main() {
   return (
-    <div className=" w-full lg:px-10">
+    <div className=" w-full lg:px-8">
       {/* Header */}
       <div
         className="h-[100px] flex flex-row justify-between w-full bg-no-repeat bg-blend-soft-light bg-cover"
@@ -50,7 +50,7 @@ export default function Main() {
         />
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mt-6 gap-x-10 px-2 md:px-4  lg:px-8">
+      <div className="flex flex-col md:flex-row lg:justify-between lg:items-center mt-6 gap-x-10 px-2 md:px-4  lg:px-8">
         <BioData />
         <EmploymentInfo />
       </div>

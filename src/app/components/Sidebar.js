@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Sidebar() {
   const [show, setShow] = useState(true);
   return (
-    <div className="hidden lg:flex  flex-col w-[250px]">
+    <div className="hidden xl:flex  flex-col w-[250px]">
       <div
         className="flex flex-row justify-between items-center bg-amber-400  px-8 py-4 w-[250px]"
         style={{ backgroundImage: "url(/images/BG.jpg)" }}
