@@ -15,6 +15,7 @@ export default function ContactInfo({}) {
           height={30}
           src="/images/blue-switch.png"
           className=" ml-10"
+          alt=""
         />
       </div>
 

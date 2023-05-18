@@ -15,6 +15,7 @@ export default function EmploymentInfo({}) {
           height={30}
           src="/images/blue-switch.png"
           className=" ml-10"
+          alt=""
         />
       </div>
 

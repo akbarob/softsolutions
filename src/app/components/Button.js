@@ -6,7 +6,7 @@ export default function Button({ title, icon }) {
       <p className="text-white text-sm lg:text-md font-semibold px-4">
         {title}
       </p>
-      <div className="h-full w-1/4 flex justify-center items-center bg-black">
+      <div className="h-full lg:w-1/4 flex justify-center items-center bg-black">
         {icon}
       </div>
     </div>

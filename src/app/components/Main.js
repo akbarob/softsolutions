@@ -24,6 +24,7 @@ export default function Main() {
               height={30}
               src="/images/blue-switch.png"
               className=" ml-10"
+              alt=""
             />
           </h2>
           <p className="hidden lg:flex max-w-[200px]  lg:text-clip lg:max-w-[700px]  text-[12px] ">
@@ -39,11 +40,13 @@ export default function Main() {
       </div>
       {/* Body */}
 
-      <div className="flex justify-between items-center p-2 mt-10 px-2 md:px-4 lg:px-8">
+      <div className="flex justify-between items-center p-2 mt-10 px-2 md:px-4 lg:px-8 ">
         <ProfileImage />
         <Button
           title="Upload profile"
-          icon={<UserPlusIcon className="bg-black text-white h-8 w-8 " />}
+          icon={
+            <UserPlusIcon className="bg-black text-white h-8 w-8 cursor-pointer" />
+          }
         />
       </div>
 
